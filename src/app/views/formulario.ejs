@@ -16,13 +16,15 @@
     <div class="logo">
         <img src="/resources/IMG/logopa.png" alt="" >
         </div>
-        <section class="Registro">
+        <form class="Registro" id="Registrar">
             <h3>formulario de contacto </h3>
             <input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese sus nombres">
             <input class="controles" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
             <input class="controles" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
             <input class="controles" type="date" name="fecha" placeholder="Ingrese su edad">
-            <input class="boton"type="submit" values="Registrar">
-        </section>
+            <button type="submit" onclick="validar();">Enviar</button>
+        </form>
+        <script type="text/javascript" src="/resources/Js/formulari.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

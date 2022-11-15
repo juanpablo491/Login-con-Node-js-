@@ -247,6 +247,18 @@ body{
         margin-left: 250px;
         border: 1px solid #333;
     }
+.item3 {
+  color: #030;
+  float: left;
+  background: #CCC;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+  margin-left: 30px;
+  margin-top: -15px;
+
+}
 .text5{
     background-color: bisque;
     border: 1px solid #333;
